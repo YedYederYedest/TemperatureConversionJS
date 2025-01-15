@@ -1,0 +1,75 @@
+body {
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    background-color: lightcyan;
+}
+
+h1 {
+    color: azure;
+    font-weight: bold;
+}
+
+form {
+    color: azure;
+    background-color: brown;
+    text-align: center;
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px;
+}
+
+#textbox {
+    width: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    border: 3.5px solid black;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+button {
+    margin-top: 10px;
+    background-color: coral;
+    width: 40%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    border: 2.5px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(231, 180, 162);
+}
+
+#result {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Custom radio buttons */
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    background-clip: content-box;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    background-color: brown;
+}
+
+input[type="radio"]:checked {
+    background-color: coral;
+}
